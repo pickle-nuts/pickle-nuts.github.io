@@ -1,0 +1,150 @@
+body {
+  font-family: Arial;
+  line-height: 1.4em;
+  background-image: url("http://moziru.com/images/aesthetic-clipart-aesthetic-tumblr-backgrounds-pink-8.png");
+  }
+
+article {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.titles{
+	font-family: "Verdana";
+	color:#317873;
+	font-size: 50px;
+	text-align:center;
+}
+
+h1{
+	font-family: "verdana";
+	color: #5f9ea0;
+	text-align: center;
+}
+
+p{
+	margin: 12px;
+}
+
+img{
+	border-radius: 150px;
+	display: ;
+}
+
+a{
+	color: #49796b;
+}
+
+h2{
+	font-family: "Helvetica";
+	color: #5bdb99;
+}
+
+section{
+	 border: dotted #a0e7a0;
+	 margin: 12px;
+	 padding: 10px;
+	 background-color: #f0e4e5;
+}
+
+.links{
+	text-align: center;
+}
+
+#niche{
+	text-align: center;
+	font-size: 25px;
+	font-family: "Roboto";
+	color: #37115a;
+}
+
+#beetroot{
+   display: block;
+    margin-right: auto;
+    margin-left: auto;
+   width: 40%;
+   border-radius: 250px;
+   margin-bottom: 20px;
+  }
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+ .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  width: 200px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #9975b9;
+  border-radius: 150px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+
+  #twt {
+  	position: relative;
+  	top: 5%;
+  	right: 0;
+  	transform: translate(72%,0);
+  }
+
+#fb {
+	position: relative;
+	top: 4%;
+	right: 0;
+	transform: translate(72%,0%);
+}
+
+#ig{
+	position: relative;
+	top: 0;
+	right: 0;
+	transform: translate(72%,0);
+}
+
+.direct ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 120px;
+	background-color: #CD96CD;
+	border: dotted #660198;
+	position: relative;
+	top: 0;
+	right: -25%;
+	transform: translate(78%, 0);
+	overflow: hidden;
+}
+
+.direct li{
+	display: block;
+	width: 100px;
+	text-align: right;
+	border-bottom: 1px solid black;
+}
+
+.direct a{
+	color: #5C246E;
+
+}
